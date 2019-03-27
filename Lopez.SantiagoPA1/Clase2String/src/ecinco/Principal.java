@@ -4,18 +4,18 @@ public class Principal {
 
 	/*
 	 * 
- * Cree una interface llamada ICalcular, que tenga los siguientes métodos:
- sumar
- restar
- multiplicar
- dividir throw MiExcepcion
-Todos los métodos reciben dos parámetros del tipo Numbre y retornan un Double. El
-método dividir debe lanzar una excepción si se intenta dividir por 0.
-Cree una clase llamada calculadora la cual implemente la interface anterior.
-En el método main se deben mostrar por consola todos los métodos disponibles y un
-número. El usuario debe ingresar la operación deseada y los valores requeridos por el
-método. El sistema debe mostrar por consola el resultado. Utilice la estructura switch para
-la ejecución de los método
+	 * Cree una interface llamada ICalcular, que tenga los siguientes métodos:
+	 *sumar
+	 *restar
+	 *multiplicar
+	 *dividir throw MiExcepcion
+	 *Todos los métodos reciben dos parámetros del tipo Numbre y retornan un Double. El
+	 *método dividir debe lanzar una excepción si se intenta dividir por 0.
+	 *Cree una clase llamada calculadora la cual implemente la interface anterior.
+	 *En el método main se deben mostrar por consola todos los métodos disponibles y un
+	 *número. El usuario debe ingresar la operación deseada y los valores requeridos por el
+	 *método. El sistema debe mostrar por consola el resultado. Utilice la estructura switch para
+	 *la ejecución de los método
 	 * 
 	 */
 	public static void main(String[] args) {
