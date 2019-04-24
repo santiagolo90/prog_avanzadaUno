@@ -42,7 +42,7 @@ public class Archivo {
 			BufferedReader br = new BufferedReader(fr);
 			String linea = null;
 			while( (linea = br.readLine()) != null){
-				
+			
 				
 				System.out.print(linea);
 			}
@@ -59,8 +59,8 @@ public class Archivo {
 	}
 	public void LeerArchivo(){
 		try {
-			File origen = new File("D:\\Koala.jpg");
-			File destino = new File("D:\\KoalaDestino.jpg");
+			File origen = new File("/home/slopez-ubuntu/Imágenes/Bolucosas/1znq2qe.jpg");
+			File destino = new File("/home/slopez-ubuntu/a.jpg");
 			
 			FileInputStream fi = new FileInputStream(origen);
 			BufferedInputStream binput = new BufferedInputStream(fi);
