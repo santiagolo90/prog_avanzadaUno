@@ -18,5 +18,8 @@ public class MyThread implements Runnable {
 			}
 		}
 		*/
+		//Saca un hilo de running para ponerlo en el runneable
+		//es para balancear un poco la carga y no se demore mas en uno que en los otros
+		Thread.yield();
 	}
 }
