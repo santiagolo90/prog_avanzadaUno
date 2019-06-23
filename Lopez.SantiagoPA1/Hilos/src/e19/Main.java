@@ -16,8 +16,6 @@ Cree un test adecuado para probar la funcionalidad
 		//Thread uno = new Thread(e);
 		e.setName("hilo ejecutar");
 		
-		
-		//19
 		e.start();
 		try {
 			System.out.println("estado: "+e.isAlive());
